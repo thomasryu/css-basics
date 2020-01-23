@@ -1,5 +1,4 @@
 /* SLIDE 0 */
-
 #slide-0 {
   flex-direction: column;
 
@@ -35,4 +34,57 @@
   to {
     background-position: -10000px 5000px;
   }
+}
+
+/* SLIDE 1 */
+#slide-1-1 {
+  position: relative;
+  z-index: 0;
+
+  height: 100%;
+  width: 100%;
+}
+
+#slide-1-1::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -10;
+
+  height: 100%;
+  width: 100%;
+
+  background: url("../images/backgrounds/introduction.jpg") center no-repeat;
+  background-size: cover;
+
+  opacity: 0.2;
+}
+
+#slide-1-3 .arrow {
+  margin-top: 65px;
+}
+
+#slide-1-3 .example {
+  height: 200px;
+  width: 300px;
+  background-color: pink;
+}
+
+#slide-1-3 .overlay-text {
+  width: 600px;
+}
+
+#slide-1-4 .arrow {
+  margin: 65px 0 40px;
+}
+
+#slide-1-4 .plus-sign {
+  margin-top: 60px;
+}
+
+#slide-1-4 .overlay-text {
+  width: 900px;
 }
