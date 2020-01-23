@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Ubuntu+Mono&display=swap");
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 0;
+}
+
+h1.main-title {
+  font-weight: normal;
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
+  text-shadow: 5px 5px pink;
+}
+
+h2.main-title .code-block {
+  font-family: "Ubuntu Mono", monospace;
+}
