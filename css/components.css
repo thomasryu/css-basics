@@ -26,6 +26,9 @@ section {
   display: flex;
   flex-direction: column;
 }
+.vertical.spaced > *:not(:first-child) {
+  margin-top: 20px;
+}
 
 h1.main-title,
 h2.main-title,
@@ -133,10 +136,21 @@ code {
   padding: 0 5px;
 
   vertical-align: top;
+  line-height: 1.5em;
 
   box-sizing: border-box;
   box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.15),
     inset -1px -1px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
 }
 
 /* OVERLAY */

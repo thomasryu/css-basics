@@ -183,3 +183,8 @@
 #slide-2-3 .overlay-list li:nth-child(2) {
   max-width: 900px;
 }
+
+/* SLIDE 2 */
+#slide-2-4 .horizontal {
+  margin-top: 30px;
+}
