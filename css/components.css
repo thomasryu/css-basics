@@ -62,16 +62,21 @@ h1.slide-title,
 h2.slide-title,
 h3.slide-title,
 h4.slide-title {
-  font-size: 0.8em;
+  font-size: 1em;
   text-transform: none;
 }
-
 h1.slide-title em,
 h2.slide-title em,
 h3.slide-title em,
 h4.slide-title em {
   font-style: normal;
   color: lightcoral;
+}
+h1.slide-title code,
+h2.slide-title code,
+h3.slide-title code,
+h4.slide-title code {
+  font-size: 1em;
 }
 
 h1.block-title,
@@ -80,6 +85,13 @@ h3.block-title,
 h4.block-title {
   font-size: 0.6em;
   text-transform: none;
+}
+h1.block-title em,
+h2.block-title em,
+h3.block-title em,
+h4.block-title em {
+  font-style: normal;
+  color: lightcoral;
 }
 
 .block-title code {
