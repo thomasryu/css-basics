@@ -144,11 +144,9 @@
 
           <!-- Slide 1.5 -->
           <section id="slide-1-5" class="vertical">
-            <h3 class="section-title">
-              <em>tl;dr:</em> CSS é uma linguagem de estilização
-            </h3>
-            <h3 class="section-title">
-              (para HTML, XML, SVG, etc)
+            <h3 class="section-title vertical">
+              <em>Resposta:</em> CSS é uma linguagem de estilização (para HTML,
+              XML, SVG, etc)
             </h3>
           </section>
         </section>
@@ -158,6 +156,86 @@
           <!-- Slide 2.1 -->
           <section id="slide-2-1">
             <h2 class="main-title">1. Display</h2>
+          </section>
+
+          <!-- Slide 2.2 -->
+          <section id="slide-2-2">
+            <h3 class="section-title">
+              <em>display</em> define como o elemento será exibido e qual será o
+              layout de seus filhos
+            </h3>
+          </section>
+
+          <!-- Slide 2.3 -->
+          <section id="slide-2-3" class=" overlay-wrapper vertical">
+            <h4 class="slide-title">
+              Antes de tudo, tenha em mente que, por default, elementos HTML se
+              empilham em <em>linhas</em>
+            </h4>
+
+            <div class="horizontal spaced">
+              <div
+                class="content-expectations vertical fragment"
+                data-fragment-index="1"
+              >
+                <span class="block-label">
+                  expectativa
+                </span>
+                <div class="browser-block stretch">
+                  <div class="browser-bar">
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                  </div>
+                  <div class="browser-content body-label">
+                    <div class="element-block">1</div>
+                    <div class="element-block">2</div>
+                    <div class="element-block">3</div>
+                    <div class="element-block">4</div>
+                    <div class="element-block">5</div>
+                  </div>
+                </div>
+              </div>
+
+              <span class="arrow fragment" data-fragment-index="2">→</span>
+
+              <div class="content-reality fragment" data-fragment-index="2">
+                <span class="block-label">
+                  realidade
+                </span>
+                <div class="browser-block">
+                  <div class="browser-bar">
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                  </div>
+                  <div class="browser-content overlay-wrapper body-label">
+                    <div class="element-block">1</div>
+                    <div class="element-block">2</div>
+                    <div class="element-block">3</div>
+                    <div class="element-block">4</div>
+                    <div class="element-block">5</div>
+
+                    <div class="overlay fragment" data-fragment-index="3">
+                      <div class="element-block"></div>
+                      <div class="element-block"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="overlay centered fragment" data-fragment-index="4">
+              <ul class="overlay-list">
+                <li>
+                  Elementos HTML se empilham, por padrão da
+                  <em>para a direita, cima para baixo</em>
+                </li>
+                <li>
+                  E cada linha possui a altura <em>de seu maior membro</em>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
 
