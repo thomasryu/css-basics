@@ -657,19 +657,52 @@
           </section>
 
           <section id="slide-3-4" class="vertical centered">
-            <h4 class="slide-title">
-              Por default, <code>flex</code> força que os filhos diretos do
-              elemento permaneçam em um mesmo eixo: <em>horizontal</em> ou
-              <em>vertical</em>
-            </h4>
+            <div class="overlay-wrapper">
+              <h4 class="slide-title">
+                Por default, um flexbox força que os filhos diretos do elemento
+                permaneçam em um mesmo eixo: <em>horizontal</em> ou
+                <em>vertical</em>
+              </h4>
 
-            <h4 class="slide-title">
-              A propriedade que determina a direção desse eixo é
-              <code><em>flex-direction</em></code>
-            </h4>
+              <h4 class="slide-title">
+                A propriedade que determina a direção desse eixo é
+                <code><em>flex-direction</em></code>
+              </h4>
+
+              <div
+                class="overlay substitute centered fragment"
+                data-fragment-index="4"
+              >
+                <h4 class="slide-title">
+                  Note que um flexbox não só elimina o espaço entre elementos
+                  <code>inline</code>/<code>inline-block</code>, mas também os
+                  reduz para que caibam em seu comprimento/altura
+                </h4>
+              </div>
+            </div>
 
             <div class="horizontal spaced">
-              <div class="vertical fragment" data-fragment-index="1">
+              <div
+                class="browser-block stretch fragment"
+                data-fragment-index="1"
+              >
+                <div class="browser-bar">
+                  <span class="browser-bar-button"></span>
+                  <span class="browser-bar-button"></span>
+                  <span class="browser-bar-button"></span>
+                </div>
+                <div class="browser-content body-label">
+                  <div class="element-block">1</div>
+                  <div class="element-block">2</div>
+                  <div class="element-block">3</div>
+                  <div class="element-block">4</div>
+                  <div class="element-block">5</div>
+                </div>
+              </div>
+
+              <span class="arrow fragment" data-fragment-index="2">&rarr;</span>
+
+              <div class="vertical fragment" data-fragment-index="3">
                 <span class="block-label">
                   flex-direction: row
                 </span>
@@ -689,9 +722,9 @@
                 </div>
               </div>
 
-              <span class="fragment" data-fragment-index="2">ou</span>
+              <span class="fragment" data-fragment-index="3">ou</span>
 
-              <div class="fragment" data-fragment-index="2">
+              <div class="fragment" data-fragment-index="3">
                 <span class="block-label">
                   flex-direction: column
                 </span>
