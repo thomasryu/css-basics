@@ -143,7 +143,7 @@
           </section>
 
           <!-- Slide 1.5 -->
-          <section id="slide-1-5" class="vertical content-section">
+          <section id="slide-1-5">
             <h3 class="section-title vertical">
               <em>Resposta:</em> CSS é uma linguagem de estilização (para HTML,
               XML, SVG, etc)
@@ -526,7 +526,7 @@
               </div>
 
               <div class="text-block fragment" data-fragment-index="2">
-                <em><strong>Bônus:</strong></em> fazer o mesmo sem alterar o
+                <em><strong>Bônus:</strong></em> fazer isso sem alterar o
                 <strong>CSS</strong> desses 2 elementos
               </div>
             </div>
@@ -555,18 +555,162 @@
             id="slide-2-6"
             data-background-iframe="https://codepen.io/negativemargin/pen/qBEQJaV?editors=1100"
           ></section>
-
-          <!-- Slide 2.7 -->
-          <section id="slide-2-7">
-            <h3 class="section-title">display: <em>flex</em></h3>
-          </section>
         </section>
 
         <!-- Slide 3 -->
         <section id="slide-3">
           <!-- Slide 3.1 -->
           <section id="slide-3-1">
-            <h2 class="main-title">2. Box Model</h2>
+            <h2 class="main-title">1.5. Display (flex)</h2>
+          </section>
+
+          <!-- Slide 3.2 -->
+          <section id="slide-3-2" class="vertical centered overlay-wrapper">
+            <h3 class="section-title">
+              <code>inline</code>, <code>block</code>, e
+              <code>inline-block</code> focam em como o elemento
+              <em>é exibido relação ao pai</em>
+            </h3>
+            <h3 class="section-title">
+              <code>flex</code> foca em como o elemento
+              <em>organiza seus filhos</em>
+            </h3>
+
+            <div class="overlay centered fragment">
+              <ul class="overlay-list">
+                <li>
+                  Um elemento <code>flex</code> se comporta igual à um
+                  <code>block</code> no sentido que ele ocupa uma linha inteira
+                  do elemento pai
+                </li>
+                <li>
+                  É possível setar um elemento com
+                  <code><em>display: inline-flex</em></code> para que ele se
+                  comporte como um elemento <code>inline-block</code>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Slide 3.3 -->
+          <section id="slide-3-3" class="vertical centered">
+            <h4 class="slide-title">
+              <em>Por exemplo</em>, inspecione os elementos <code>inline</code>,
+              <code>block</code>, e <code>inline-block</code> do slide anterior:
+            </h4>
+
+            <div class="browser-block">
+              <div class="browser-bar">
+                <span class="browser-bar-button"></span>
+                <span class="browser-bar-button"></span>
+                <span class="browser-bar-button"></span>
+              </div>
+              <div class="browser-content body-label overlay-wrapper">
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block block">block</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block block">block</code>
+                <code class="element-block block">block</code>
+                <code class="element-block block">block</code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+                <code class="element-block inline">inline</code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+                <code class="element-block block">block</code>
+                <code class="element-block inline-block">
+                  inline-block
+                </code>
+
+                <div class="overlay browser-content fragment centered">
+                  <img src="images/i-lied.gif" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="slide-3-4" class="vertical centered">
+            <h4 class="slide-title">
+              Por default, <code>flex</code> força que os filhos diretos do
+              elemento permaneçam em um mesmo eixo: <em>horizontal</em> ou
+              <em>vertical</em>
+            </h4>
+
+            <h4 class="slide-title">
+              A propriedade que determina a direção desse eixo é
+              <code><em>flex-direction</em></code>
+            </h4>
+
+            <div class="horizontal spaced">
+              <div class="vertical fragment" data-fragment-index="1">
+                <span class="block-label">
+                  flex-direction: row
+                </span>
+                <div class="browser-block stretch">
+                  <div class="browser-bar">
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                  </div>
+                  <div class="browser-content body-label horizontal">
+                    <div class="element-block">1</div>
+                    <div class="element-block">2</div>
+                    <div class="element-block">3</div>
+                    <div class="element-block">4</div>
+                    <div class="element-block">5</div>
+                  </div>
+                </div>
+              </div>
+
+              <span class="fragment" data-fragment-index="2">ou</span>
+
+              <div class="fragment" data-fragment-index="2">
+                <span class="block-label">
+                  flex-direction: column
+                </span>
+                <div class="browser-block">
+                  <div class="browser-bar">
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                  </div>
+                  <div class="browser-content body-label vertical">
+                    <div class="element-block">1</div>
+                    <div class="element-block">2</div>
+                    <div class="element-block">3</div>
+                    <div class="element-block">4</div>
+                    <div class="element-block">5</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </section>
       </div>
@@ -584,6 +728,7 @@
         width: "100%",
         height: "100%",
         margin: 0,
+        viewDistance: 1,
         dependencies: [
           { src: "plugin/markdown/marked.js" },
           { src: "plugin/markdown/markdown.js" },

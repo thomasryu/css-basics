@@ -307,3 +307,75 @@
 #slide-2-5 video {
   width: 100%;
 }
+
+/* SLIDE 3 */
+#slide-3-2 .section-title {
+  text-align: left;
+  max-width: 1100px;
+}
+#slide-3-2 .section-title:nth-child(2) {
+  max-width: 800px;
+  padding-right: 300px;
+  margin-top: 20px;
+}
+
+#slide-3-2 .overlay-list {
+  max-width: 1080px;
+}
+
+#slide-3-3 .slide-title {
+  max-width: 900px;
+}
+
+#slide-3-3 .browser-block {
+  max-width: 900px;
+  margin-top: 30px;
+}
+
+#slide-3-3 .inline {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: pink;
+}
+#slide-3-3 .block {
+  background-color: lightcoral;
+}
+#slide-3-3 .inline-block {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: mistyrose;
+}
+#slide-3-3 .element-block:nth-child(19) {
+  width: 40%;
+  height: 40px;
+}
+#slide-3-3 .element-block:nth-child(20) {
+  width: 50%;
+  height: 60px;
+}
+#slide-3-3 .element-block:nth-child(22) {
+  width: 25%;
+  height: 60px;
+}
+#slide-3-3 .element-block:nth-child(23) {
+  width: 35%;
+  height: 50px;
+}
+#slide-3-3 .element-block:nth-child(26) {
+  width: 40%;
+  height: 40px;
+}
+#slide-3-3 .element-block:nth-child(28) {
+  width: 25%;
+  height: 60px;
+}
+#slide-3-3 .element-block:nth-child(29) {
+  width: 40%;
+  height: 40px;
+}
+#slide-3-3 .element-block:nth-child(30) {
+  width: 30%;
+  height: 50px;
+}
+
+#slide-3-4 .slide-title {
+  max-width: 1030px;
+}
