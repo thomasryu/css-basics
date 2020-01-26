@@ -783,3 +783,7 @@
 #slide-3-10 .substitute .browser-content {
   width: 50vw;
 }
+
+#slide-3-11 .section-title {
+  max-width: 1200px;
+}
