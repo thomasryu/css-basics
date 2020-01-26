@@ -34,6 +34,9 @@ video {
   flex-grow: 1;
   flex-basis: 50%;
 }
+.horizontal.spaced .substitute.overlay {
+  margin-left: 0;
+}
 .vertical {
   display: flex;
   flex-direction: column;
@@ -54,7 +57,11 @@ h4.main-title {
 h1.main-title em,
 h2.main-title em,
 h3.main-title em,
-h4.main-title em,
+h4.main-title em {
+  color: lightcoral;
+  text-shadow: 3px 3px pink;
+}
+
 h1.section-title em,
 h2.section-title em,
 h3.section-title em,
@@ -62,12 +69,42 @@ h4.section-title em {
   color: lightcoral;
   text-shadow: 3px 3px pink;
 }
+
 h1.section-title code,
 h2.section-title code,
 h3.section-title code,
 h4.section-title code {
   font-size: 1em;
   color: rgba(255, 255, 255, 0.6);
+}
+h1.section-title code em,
+h2.section-title code em,
+h3.section-title code em,
+h4.section-title code em {
+  font-style: normal !important;
+}
+
+h1.section-title code em,
+h2.section-title code em,
+h3.section-title code em,
+h4.section-title code em {
+  font-style: normal !important;
+}
+
+h4.section-caption,
+h5.section-caption {
+  font-size: 0.8em;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+h4.section-caption code,
+h5.section-caption code {
+  font-size: 1em;
+}
+h4.section-caption em,
+h5.section-caption em {
+  font-style: normal;
+  color: lightcoral;
 }
 
 h1.slide-title,
@@ -88,6 +125,26 @@ h1.slide-title code,
 h2.slide-title code,
 h3.slide-title code,
 h4.slide-title code {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.6);
+}
+h1.slide-title,
+h2.slide-title,
+h3.slide-title,
+h4.slide-title {
+  font-size: 1em;
+  text-transform: none;
+}
+
+h5.slide-subtitle {
+  font-size: 0.8em;
+  text-transform: none;
+}
+h5.slide-subtitle em {
+  font-style: normal;
+  color: lightcoral;
+}
+h5.slide-subtitle code {
   font-size: 1em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -150,7 +207,7 @@ code {
   font-family: "Ubuntu Mono", monospace;
   text-align: left;
 
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
 
   margin-bottom: 12px;
 }
@@ -214,6 +271,9 @@ code {
   align-items: center;
 
   font-size: 0.5em;
+}
+.space-block code {
+  font-size: 1em;
 }
 
 .inline {
