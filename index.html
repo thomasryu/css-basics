@@ -755,7 +755,7 @@
             </h4>
 
             <h4 class="slide-title">
-              Isso é válido tanto para o eixo que determinamos, como o eixo
+              Isso é válido tanto para o eixo que determinamos como o eixo
               transversal
             </h4>
 
@@ -901,7 +901,7 @@
                     </div>
                   </div>
                 </div>
-  
+
                 <div class="fragment" data-fragment-index="32">
                   <span class="block-label">
                     align-items: flex-end
@@ -1127,11 +1127,40 @@
           <!-- SLIDE 3.11 -->
           <section id="slide-3-11" class="vertical centered">
             <h3 class="section-title">
-              Lembrando que qualquer combinacão de 
+              Lembrando que qualquer combinacão de
               <code><em>justify-content</em></code> com
               <code><em>align-items</em></code> é possível
             </h3>
           </section>
+
+          <!-- SLIDE 3.12 -->
+          <section id="slide-3-12" class="vertical centered overlay-wrapper">
+            <h4 class="slide-title">
+              <code><em>justify-content: center</em></code> + <code><em>align-items: center</em></code>
+            </h4>
+
+            <div class="browser-block" data-fragment-index="10">
+              <div class="browser-bar">
+                <span class="browser-bar-button"></span>
+                <span class="browser-bar-button"></span>
+                <span class="browser-bar-button"></span>
+              </div>
+              <div class="browser-content body-label horizontal centered">
+                <div class="space-block fragment" data-fragment-index="10"><code>50%</code></div>
+                <div class="space-block fragment" data-fragment-index="10"><code>50%</code></div>
+
+                <div class="horizontal centered">
+                  <div class="element-block"></div>
+                  <div class="element-block"></div>
+                  <div class="element-block"></div>
+                </div>
+
+                <div class="space-block fragment" data-fragment-index="10"><code>50%</code></div>
+                <div class="space-block fragment" data-fragment-index="10"><code>50%</code></div>
+              </div>
+            </div>
+          </section>
+
         </section>
       </div>
     </div>
@@ -1148,7 +1177,6 @@
         width: "100%",
         height: "100%",
         margin: 0,
-        viewDistance: 1,
         dependencies: [
           { src: "plugin/markdown/marked.js" },
           { src: "plugin/markdown/markdown.js" },

@@ -668,7 +668,7 @@
   z-index: -10;
 }
 #slide-3-8 .substitute .space-block:last-child {
-  margin: 0 10px -2.5vh;
+  margin: 10px 10px -2.5vh;
   padding: 0 0 30px;
 }
 
@@ -786,4 +786,93 @@
 
 #slide-3-11 .section-title {
   max-width: 1200px;
+}
+
+#slide-3-12 .slide-title code {
+  display: block;
+  text-align: center;
+}
+
+#slide-3-12 .slide-title code:first-child {
+  margin-bottom: -8px;
+}
+#slide-3-12 .slide-title code:last-child {
+  margin-top: -18px;
+}
+
+#slide-3-12 > .browser-block {
+  margin-top: 50px;
+}
+
+#slide-3-12 .browser-content {
+  width: 50vw;
+  height: 40vh;
+  flex-wrap: wrap;
+}
+
+#slide-3-12 .element-block {
+  font-size: 1em;
+  box-sizing: border-box;
+}
+#slide-3-12 .element-block:nth-child(1) {
+  height: 7vh;
+  width: 7vw;
+
+  color: rgba(0, 0, 0, 0.5);
+  background-color: pink;
+}
+#slide-3-12 .element-block:nth-child(2) {
+  height: 12vh;
+  width: 8vw;
+
+  background-color: lightcoral;
+}
+#slide-3-12 .element-block:nth-child(3) {
+  height: 10vh;
+  width: 12vw;
+
+  color: rgba(0, 0, 0, 0.5);
+  background-color: mistyrose;
+}
+
+#slide-3-12 .space-block:first-child,
+#slide-3-12 .space-block:last-child {
+  height: calc((100% - 12vh) / 2);
+  width: calc(27vw - 20px);
+  margin: 10px calc((100% - 27vw) / 2 + 10px);
+
+  position: relative;
+  z-index: -10;
+}
+#slide-3-12 .space-block:nth-child(2),
+#slide-3-12 .space-block:nth-child(4) {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.1);
+}
+
+#slide-3-12 .space-block:first-child {
+  margin-bottom: -2.5vh;
+}
+#slide-3-12 .space-block:last-child {
+  margin-top: -2.5vh;
+}
+#slide-3-12 .space-block:nth-child(2) {
+  height: calc(7vh - 15px);
+}
+#slide-3-12 .space-block:nth-child(4) {
+  height: calc(10vh - 15px);
+}
+
+#slide-3-12 .space-block {
+  height: calc(12vh - 20px);
+  width: calc((100% - 27vw) / 2 - 20px);
+  min-width: 0;
+
+  margin: 10px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.2);
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.6em;
 }
