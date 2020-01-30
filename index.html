@@ -1184,6 +1184,13 @@
           { src: "plugin/notes/notes.js", async: true }
         ]
       });
+
+      Reveal.addKeyBinding(38, function() {
+        Reveal.prev();
+      })
+      Reveal.addKeyBinding(40, function() {
+        Reveal.next()
+      })
     </script>
   </body>
 </html>
