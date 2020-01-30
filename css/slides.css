@@ -1,5 +1,7 @@
-/* SLIDE 0 */
-#slide-0 {
+#slide-0,
+#slide-1-1,
+#slide-2-1,
+#slide-3-1 {
   flex-direction: column;
 
   box-sizing: border-box;
@@ -11,7 +13,10 @@
   background-size: cover;
 }
 
-#slide-0::after {
+#slide-0::after,
+#slide-1-1::after,
+#slide-2-1::after,
+#slide-3-1::after {
   content: "";
 
   position: absolute;
@@ -45,64 +50,46 @@
   width: 100%;
 }
 
-/* #slide-1-1::before {
-  content: "";
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  z-index: -10;
-
-  height: 100%;
-  width: 100%;
-
-  background: url("../images/backgrounds/introduction.jpg") center no-repeat;
-  background-size: cover;
-
-  opacity: 0.2;
-} */
-
-#slide-1-3 code,
-#slide-1-4 code {
+#slide-1-4 code,
+#slide-1-5 code {
   display: block;
 }
 
-#slide-1-3 .arrow {
+#slide-1-4 .arrow {
   margin-top: 65px;
 }
 
-#slide-1-3 .example {
+#slide-1-4 .example {
   height: 200px;
   width: 300px;
   background-color: pink;
 }
 
-#slide-1-3 .overlay-text {
+#slide-1-4 .overlay-text {
   width: 600px;
 }
 
-#slide-1-4 .vertical {
+#slide-1-5 .vertical {
   display: flex;
 }
 
-#slide-1-4 .arrow {
+#slide-1-5 .arrow {
   margin: 65px 0 40px;
 }
 
-#slide-1-4 .plus-sign {
+#slide-1-5 .plus-sign {
   margin-top: 60px;
 }
 
-#slide-1-4 .overlay-text {
+#slide-1-5 .overlay-text {
   width: 900px;
 }
 
-#slide-1-5 .section-title {
+#slide-1-6 .section-title {
   max-width: 1000px;
 }
 
-#slide-1-5 .section-title em {
+#slide-1-6 .section-title em {
   margin-bottom: 40px;
 }
 
@@ -310,6 +297,10 @@
 
 #slide-2-5 video {
   width: 100%;
+}
+
+#slide-2-6 {
+  position: relative;
 }
 
 /* SLIDE 3 */
