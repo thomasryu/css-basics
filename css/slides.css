@@ -870,6 +870,10 @@
 }
 
 /* SLIDE 4 */
+#slide-4-2 .center {
+  margin-bottom: 3vh;
+}
+
 #slide-4-2 .text-block {
   display: flex;
 }
@@ -913,4 +917,16 @@
 
 #slide-4-2 .overlay .code-highlight:nth-child(4) {
   color: lightsalmon;
+}
+
+#slide-4-3 > .horizontal {
+  width: 60vw;
+  min-width: 900px;
+}
+
+#slide-4-3 .block-label:not(:first-child) {
+  margin-top: 20px;
+}
+#slide-4-3 .text-block {
+  display: flex;
 }

@@ -1255,7 +1255,7 @@
 
         <!-- Slide 4 -->
         <section id="4">
-          <!-- Slide 2.1 -->
+          <!-- Slide 4.1 -->
           <section id="slide-4-1">
             <h2 class="main-title">2. Seletores</h2>
           </section>
@@ -1312,11 +1312,109 @@
             <div class="overlay substitute centered fragment">
               <div class="text-block">
                 <code>
-                  &lt;<span class="code-highlight">div</span> <span class="code-highlight">class="my-class"</span> <span class="code-highlight">id="my-id"</span> <span class="code-highlight">potato="my-potato"</span>&gt;&lt;/<span
-                    class="code-highlight"
-                    >div</span
-                  >&gt;
+                  &lt;<span class="code-highlight">div</span>
+                  <span class="code-highlight">class="my-class"</span>
+                  <span class="code-highlight">id="my-id"</span>
+                  <span class="code-highlight">potato="my-potato"</span
+                  >&gt;&lt;/<span class="code-highlight">div</span>&gt;
                 </code>
+              </div>
+            </div>
+          </section>
+
+          <!-- Slide 4.3 -->
+          <section id="slide-4-3">
+            <div class="horizontal spaced">
+              <div class="vertical">
+                <span class="block-label">html</span>
+                <div class="text-block">
+                  <code>
+                    1- <span>&lt;div&gt;&lt;/div&gt;</span>
+                    <br />
+                    <br />
+
+                    2- <span>&lt;div class="my-class"&gt;&lt;/div&gt;</span>
+                    <br />
+                    <br />
+                    3- <span>&lt;div id="my-id"&gt;&lt;/div&gt;</span>
+                    <br />
+                    <br />
+                    4-
+                    <span
+                      >&lt;div
+                      some-attribute="my-attribute"&gt;&lt;/div&gt;</span
+                    >
+                  </code>
+                </div>
+
+                <span class="block-label">browser</span>
+                <div class="browser-block">
+                  <div class="browser-bar">
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                    <span class="browser-bar-button"></span>
+                  </div>
+                  <div class="browser-content body-label">
+                    <div class="example">
+                      <div class="element-block">1</div>
+                      <div class="element-block">2</div>
+                      <div class="element-block">3</div>
+                      <div class="element-block">4</div>
+                      <div class="element-block">5</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="vertical">
+                <span class="block-label">css</span>
+                <div class="text-block">
+                  <code class="vertical">
+                    div {
+                    <span class="code-highlight">
+                      &nbsp;&nbsp;height: 200px;<br />
+                      &nbsp;&nbsp;width: 300px; <br />
+                      &nbsp;&nbsp;background-color: pink;
+                    </span>
+                    }
+                    <br />
+                    <br />
+                    .my-class {
+                    <span class="code-highlight">
+                      &nbsp;&nbsp;height: 200px;<br />
+                      &nbsp;&nbsp;width: 300px; <br />
+                      &nbsp;&nbsp;background-color: pink;
+                    </span>
+                    }
+                    <br />
+                    <br />
+                    #my-id {
+                    <span class="code-highlight">
+                      &nbsp;&nbsp;height: 200px;<br />
+                      &nbsp;&nbsp;width: 300px; <br />
+                      &nbsp;&nbsp;background-color: pink;
+                    </span>
+                    }
+                    <br />
+                    <br />
+                    [some-attribute] {
+                    <span class="code-highlight">
+                      &nbsp;&nbsp;height: 200px;<br />
+                      &nbsp;&nbsp;width: 300px; <br />
+                      &nbsp;&nbsp;background-color: pink;
+                    </span>
+                    }
+                    <br />
+                    <br />
+                    [some-attribute="my-attribute"] {
+                    <span class="code-highlight">
+                      &nbsp;&nbsp;height: 200px;<br />
+                      &nbsp;&nbsp;width: 300px; <br />
+                      &nbsp;&nbsp;background-color: pink;
+                    </span>
+                    }
+                  </code>
+                </div>
               </div>
             </div>
           </section>
