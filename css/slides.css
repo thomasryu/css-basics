@@ -932,6 +932,18 @@
   display: flex;
 }
 
+#slide-4-3 .text-block:nth-child(2) code > div:not(:first-child) {
+  margin-top: 15px;
+}
+
+#slide-4-3 .text-block:last-child {
+  flex-grow: 1;
+}
+
+#slide-4-3 .text-block:last-child code > div:not(:first-child) {
+  margin-top: 20px;
+}
+
 #slide-4-3 .index-number {
   color: rgba(255, 255, 255, 0.3);
 }
