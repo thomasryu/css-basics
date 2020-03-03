@@ -920,13 +920,24 @@
 }
 
 #slide-4-3 > .horizontal {
-  width: 60vw;
+  width: 80vw;
   min-width: 900px;
 }
 
 #slide-4-3 .block-label:not(:first-child) {
   margin-top: 20px;
 }
+
 #slide-4-3 .text-block {
   display: flex;
+}
+
+#slide-4-3 .index-number {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#slide-4-3 .element-block {
+  height: 100px;
+  width: calc((100% - 34px) / 5);
+  background-color: gray;
 }
