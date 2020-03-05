@@ -998,10 +998,21 @@
   background-color: violet;
 }
 
-#slide-4-7 .horizontal {
-  width: 60vw;
+#slide-4-7 .horizontal,
+#slide-4-8 .horizontal,
+#slide-4-9 .horizontal,
+#slide-4-10 .horizontal,
+#slide-4-11 .horizontal,
+#slide-4-12 .horizontal {
+  width: 50vw;
 }
 
-#slide-4-7 .horizontal {
-  width: 60vw;
+#slide-4-7 .horizontal > div:first-child,
+#slide-4-8 .horizontal > div:first-child,
+#slide-4-9 .horizontal > div:first-child,
+#slide-4-10 .horizontal > div:first-child,
+#slide-4-11 .horizontal > div:first-child,
+#slide-4-12 .horizontal > div:first-child {
+  min-width: 300px;
+  max-width: 20vw;
 }
