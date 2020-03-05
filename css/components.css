@@ -210,7 +210,7 @@ code {
   font-family: "Ubuntu Mono", monospace;
   text-align: left;
 
-  color: rgba(255, 255, 255, 0.3);
+  color: #5e5e5e;
 
   margin-bottom: 12px;
 }
@@ -344,6 +344,9 @@ code {
 }
 .substitute.overlay {
   background-color: #191919;
+}
+.substitute.transparent {
+  background-color: transparent;
 }
 
 .overlay-text:not(:first-child) {
