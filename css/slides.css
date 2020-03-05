@@ -870,130 +870,138 @@
 }
 
 /* SLIDE 4 */
-#slide-4-2 .center {
+#slide-4-3 .center {
   margin-bottom: 3vh;
-}
-
-#slide-4-2 .text-block {
-  display: flex;
-}
-
-#slide-4-2 .block-label:not(:first-child) {
-  margin-top: 30px;
-}
-
-#slide-4-2 .text-block:nth-child(2) .code-highlight {
-  color: lightskyblue;
-}
-
-#slide-4-2 .text-block:nth-child(4) .code-highlight {
-  color: khaki;
-}
-
-#slide-4-2 .text-block:nth-child(6) .code-highlight {
-  color: lightgreen;
-}
-
-#slide-4-2 .text-block:nth-child(8) .code-highlight {
-  color: lightsalmon;
-}
-
-#slide-4-2 .overlay .text-block {
-  font-size: 1.15em;
-}
-
-#slide-4-2 .overlay .code-highlight:first-child,
-#slide-4-2 .overlay .code-highlight:last-child {
-  color: lightskyblue;
-}
-
-#slide-4-2 .overlay .code-highlight:nth-child(2) {
-  color: khaki;
-}
-
-#slide-4-2 .overlay .code-highlight:nth-child(3) {
-  color: lightgreen;
-}
-
-#slide-4-2 .overlay .code-highlight:nth-child(4) {
-  color: lightsalmon;
-}
-
-#slide-4-3 > .horizontal {
-  width: 80vw;
-  min-width: 900px;
-}
-
-#slide-4-3 .block-label:not(:first-child) {
-  margin-top: 20px;
 }
 
 #slide-4-3 .text-block {
   display: flex;
 }
 
-#slide-4-3 .text-block:nth-child(2) code > div:not(:first-child) {
-  margin-top: 15px;
-}
-
-#slide-4-3 .text-block:last-child {
-  flex-grow: 1;
-}
-
-#slide-4-3 .text-block:last-child code > div:not(:first-child) {
+#slide-4-3 .block-label:not(:first-child) {
   margin-top: 20px;
 }
 
-#slide-4-3 .index-number {
+#slide-4-3 .text-block:nth-child(2) .code-highlight {
+  color: deepskyblue;
+}
+
+#slide-4-3 .text-block:nth-child(4) .code-highlight {
+  color: yellow;
+}
+
+#slide-4-3 .text-block:nth-child(6) .code-highlight {
+  color: lawngreen;
+}
+
+#slide-4-3 .text-block:nth-child(8) .code-highlight {
+  color: orangered;
+}
+
+#slide-4-3 .overlay .text-block {
+  font-size: 1.15em;
+}
+
+#slide-4-3 .overlay .code-highlight:first-child,
+#slide-4-3 .overlay .code-highlight:last-child {
+  color: deepskyblue;
+}
+
+#slide-4-3 .overlay .code-highlight:nth-child(2) {
+  color: yellow;
+}
+
+#slide-4-3 .overlay .code-highlight:nth-child(3) {
+  color: lawngreen;
+}
+
+#slide-4-3 .overlay .code-highlight:nth-child(4) {
+  color: orangered;
+}
+
+#slide-4-5 > .horizontal {
+  width: 80vw;
+  min-width: 900px;
+}
+
+#slide-4-5 .block-label:not(:first-child) {
+  margin-top: 20px;
+}
+
+#slide-4-5 .text-block {
+  display: flex;
+}
+
+#slide-4-5 .text-block:nth-child(2) code > div:not(:first-child) {
+  margin-top: 15px;
+}
+
+#slide-4-5 .text-block:last-child {
+  flex-grow: 1;
+}
+
+#slide-4-5 .text-block:last-child code > div:not(:first-child) {
+  margin-top: 20px;
+}
+
+#slide-4-5 .index-number {
   color: rgba(255, 255, 255, 0.3);
 }
 
-#slide-4-3 .element-block {
+#slide-4-5 .element-block {
   height: 100px;
   width: calc((100% - 34px) / 5);
   background-color: gray;
 }
 
-#slide-4-3-1 .code-highlight {
-  color: lightskyblue;
+#slide-4-5-1 .code-highlight {
+  color: deepskyblue;
 }
 
-#slide-4-3-1 .element-block:nth-child(1),
-#slide-4-3-1 .element-block:nth-child(2),
-#slide-4-3-1 .element-block:nth-child(3),
-#slide-4-3-1 .element-block:nth-child(5) {
-  background-color: lightskyblue;
+#slide-4-5-1 .element-block:nth-child(1),
+#slide-4-5-1 .element-block:nth-child(2),
+#slide-4-5-1 .element-block:nth-child(3),
+#slide-4-5-1 .element-block:nth-child(5) {
+  background-color: deepskyblue;
 }
 
-#slide-4-3-2 .code-highlight {
-  color: khaki;
+#slide-4-5-2 .code-highlight {
+  color: yellow;
 }
 
-#slide-4-3-2 .element-block:nth-child(2) {
-  background-color: khaki;
+#slide-4-5-2 .element-block:nth-child(2) {
+  background-color: yellow;
 }
 
-#slide-4-3-3 .code-highlight {
-  color: lightgreen;
+#slide-4-5-3 .code-highlight {
+  color: lawngreen;
 }
 
-#slide-4-3-3 .element-block:nth-child(3) {
-  background-color: lightgreen;
+#slide-4-5-3 .element-block:nth-child(3) {
+  background-color: lawngreen;
 }
 
-#slide-4-3-4 .code-highlight {
-  color: lightsalmon;
+#slide-4-5-4 .code-highlight {
+  color: orangered;
 }
 
-#slide-4-3-4 .element-block:nth-child(4),
-#slide-4-3-4 .element-block:nth-child(5) {
-  background-color: lightsalmon;
+#slide-4-5-4 .element-block:nth-child(4),
+#slide-4-5-4 .element-block:nth-child(5) {
+  background-color: orangered;
 }
 
-#slide-4-3-5 .code-highlight {
-  color: orchid;
+#slide-4-5-5 .code-highlight {
+  color: violet;
 }
 
-#slide-4-3-5 .element-block:nth-child(5) {
-  background-color: orchid;
+#slide-4-5-5 .element-block:nth-child(5) {
+  background-color: violet;
+}
+
+#slide-4-7 .horizontal {
+  width: 60vw;
+}
+
+#slide-4-7 .horizontal {
+  width: 60vw;
 }

@@ -842,7 +842,7 @@
 
             <h4 class="section-caption fragment">
               (para fins demonstrativos, vamos usar
-              <code><em>flex-direction: row</em></code
+              <span><em>flex-direction: row</em></code
               >)
             </h4>
           </section>
@@ -1261,7 +1261,12 @@
           </section>
 
           <!-- Slide 4.2 -->
-          <section id="slide-4-2" class="overlay-wrapper">
+          <section id="slide-4-2">
+            <h2 class="section-title">O que são <em>seletores</em>?</h2>
+          </section>
+
+          <!-- Slide 4.3 -->
+          <section id="slide-4-3" class="overlay-wrapper">
             <div class="center vertical">
               <span class="block-label fragment" data-fragment-index="1"
                 >element</span
@@ -1312,6 +1317,17 @@
             <div class="overlay substitute centered fragment">
               <div class="text-block">
                 <code>
+                  &lt;div
+                  class="my-class"
+                  id="my-id"
+                  potato="my-potato"&gt;&lt;/div&gt;
+                </code>
+              </div>
+            </div>
+
+            <div class="overlay substitute centered fragment">
+              <div class="text-block">
+                <code>
                   &lt;<span class="code-highlight">div</span>
                   <span class="code-highlight">class="my-class"</span>
                   <span class="code-highlight">id="my-id"</span>
@@ -1322,8 +1338,13 @@
             </div>
           </section>
 
-          <!-- Slide 4.3 -->
-          <section id="slide-4-3">
+          <!-- Slide 4.4 -->
+          <section id="slide-4-4">
+            <h3 class="section-title">Seletores <em>simples</em></h3>
+          </section>
+
+          <!-- Slide 4.5 -->
+          <section id="slide-4-5">
             <div class="horizontal spaced overlay-wrapper">
               <div class="vertical">
                 <span class="block-label fragment" data-fragment-index="10"
@@ -1392,9 +1413,9 @@
                 </div>
               </div>
 
-              <!-- SLIDE 4.3.1 -->
+              <!-- SLIDE 4.5.1 -->
               <div
-                id="slide-4-3-1"
+                id="slide-4-5-1"
                 class="horizontal overlay substitute transparent spaced fragment"
                 data-fragment-index="40"
               >
@@ -1462,7 +1483,7 @@
                     <code class="vertical">
                       <div>
                         <span class="code-highlight">div {</span><br />
-                        &nbsp;&nbsp;background-color: lightskyblue;<br />
+                        &nbsp;&nbsp;background-color: deepskyblue;<br />
                         <span class="code-highlight">}</span></span>
                       </div>
                     </code>
@@ -1470,9 +1491,9 @@
                 </div>
               </div>
 
-              <!-- SLIDE 4.3.2 -->
+              <!-- SLIDE 4.5.2 -->
               <div
-                id="slide-4-3-2"
+                id="slide-4-5-2"
                 class="horizontal overlay substitute transparent spaced fragment"
                 data-fragment-index="50"
               >
@@ -1538,13 +1559,13 @@
                     <code class="vertical">
                       <div>
                         div {<br />
-                        &nbsp;&nbsp;background-color: lightskyblue;<br />
+                        &nbsp;&nbsp;background-color: deepskyblue;<br />
                         }
                       </div>
 
                       <div>
                         <span class="code-highlight">.my-class {</span><br />
-                        &nbsp;&nbsp;background-color: khaki;<br />
+                        &nbsp;&nbsp;background-color: yellow;<br />
                         <span class="code-highlight">}</span>
                       </div>
                     </code>
@@ -1552,9 +1573,9 @@
                 </div>
               </div>
 
-              <!-- SLIDE 4.3.3 -->
+              <!-- SLIDE 4.5.3 -->
               <div
-                id="slide-4-3-3"
+                id="slide-4-5-3"
                 class="horizontal overlay substitute transparent spaced fragment"
                 data-fragment-index="60"
               >
@@ -1620,19 +1641,19 @@
                     <code class="vertical">
                       <div>
                         div {<br />
-                        &nbsp;&nbsp;background-color: lightskyblue;<br />
+                        &nbsp;&nbsp;background-color: deepskyblue;<br />
                         }
                       </div>
 
                       <div>
                         .my-class {<br />
-                        &nbsp;&nbsp;background-color: khaki;<br />
+                        &nbsp;&nbsp;background-color: yellow;<br />
                         }
                       </div>
 
                       <div>
                         <span class="code-highlight">#my-id {</span><br />
-                        &nbsp;&nbsp;background-color: lightgreen;<br />
+                        &nbsp;&nbsp;background-color: lawngreen;<br />
                         <span class="code-highlight">}</span>
                       </div>
                     </code>
@@ -1640,9 +1661,9 @@
                 </div>
               </div>
 
-              <!-- SLIDE 4.3.4 -->
+              <!-- SLIDE 4.5.4 -->
               <div
-                id="slide-4-3-4"
+                id="slide-4-5-4"
                 class="horizontal overlay substitute transparent spaced fragment"
                 data-fragment-index="70"
               >
@@ -1708,25 +1729,25 @@
                     <code class="vertical">
                       <div>
                         div {<br />
-                        &nbsp;&nbsp;background-color: lightskyblue;<br />
+                        &nbsp;&nbsp;background-color: deepskyblue;<br />
                         }
                       </div>
 
                       <div>
                         .my-class {<br />
-                        &nbsp;&nbsp;background-color: khaki;<br />
+                        &nbsp;&nbsp;background-color: yellow;<br />
                         }
                       </div>
 
                       <div>
                         #my-id {<br />
-                        &nbsp;&nbsp;background-color: lightgreen;<br />
+                        &nbsp;&nbsp;background-color: lawngreen;<br />
                         }
                       </div>
 
                       <div>
                         <span class="code-highlight">[some-attribute] {</span><br />
-                        &nbsp;&nbsp;background-color: lightsalmon;<br />
+                        &nbsp;&nbsp;background-color: orangered;<br />
                         <span class="code-highlight">}</span>
                       </div>
                     </code>
@@ -1734,9 +1755,9 @@
                 </div>
               </div>
 
-              <!-- SLIDE 4.3.5 -->
+              <!-- SLIDE 4.5.5 -->
               <div
-                id="slide-4-3-5"
+                id="slide-4-5-5"
                 class="horizontal overlay substitute transparent spaced fragment"
                 data-fragment-index="80"
               >
@@ -1802,25 +1823,25 @@
                     <code class="vertical">
                       <div>
                         div {<br />
-                        &nbsp;&nbsp;background-color: lightskyblue;<br />
+                        &nbsp;&nbsp;background-color: deepskyblue;<br />
                         }
                       </div>
 
                       <div>
                         .my-class {<br />
-                        &nbsp;&nbsp;background-color: khaki;<br />
+                        &nbsp;&nbsp;background-color: yellow;<br />
                         }
                       </div>
 
                       <div>
                         #my-id {<br />
-                        &nbsp;&nbsp;background-color: lightgreen;<br />
+                        &nbsp;&nbsp;background-color: lawngreen;<br />
                         }
                       </div>
 
                       <div>
                         [some-attribute] {<br />
-                        &nbsp;&nbsp;background-color: lightsalmon;<br />
+                        &nbsp;&nbsp;background-color: orangered;<br />
                         }
                       </div>
 
@@ -1829,6 +1850,74 @@
                         &nbsp;&nbsp;background-color: orchid;<br />
                         <span class="code-highlight">}</span>
                       </div>
+                    </code>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Slide 4.6 -->
+          <section id="slide-4-6">
+            <h3 class="section-title"><em>Combinadores</em></h3>
+          </section>
+
+          <!-- Slide 4.7 -->
+          <section id="slide-4-7">
+            <div class="vertical">
+            <div class="horizontal spaced">
+              <div class="vertical">
+
+                <span class="block-label">html</span>
+                <div class="text-block stretch">
+                  <code class="vertical">
+                    <span>&lt;div id="wrapper"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&lt;h1 class="title"&gt;Title&lt;/h1&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&lt;h2 class="title"&gt;Subtitle&lt;/h1&gt;</span>
+
+                    <br />
+
+                    <span>&nbsp;&nbsp;&nbsp;&lt;p&gt;</span>
+
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&gt;Text 1&lt;/span&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&gt;Text 2&lt;/span&gt;</span>
+
+                    <span>&nbsp;&nbsp;&nbsp;&lt;/p&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                  </code>
+                </div>
+              </div>
+
+              <div class="vertical">
+                <div>
+                  <span class="block-label">combinador</span>
+                  <div class="text-block stretch">
+                    <span>descendentes: A B</span>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="block-label">css</span>
+                  <div class="text-block stretch">
+                    <code class="vertical">
+                      <div>
+                        div h1 {<br />
+                        &nbsp;&nbsp;color: deepskyblue;<br />
+                        }
+                      </div>
+                      <br />
+                      <div>
+                        #wrapper span {<br />
+                        &nbsp;&nbsp;color: yellow;<br />
+                        }
+                      </div>
+                      <br />
+                      <div>
+                        #wrapper p span {<br />
+                        &nbsp;&nbsp;color: lawngreen;<br />
+                        }
+                      </div>
+
                     </code>
                   </div>
                 </div>
