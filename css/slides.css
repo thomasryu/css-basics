@@ -919,100 +919,132 @@
   color: orangered;
 }
 
-#slide-4-5 > .horizontal {
+#slide-4-5 > .horizontal,
+#slide-4-6 > .horizontal,
+#slide-4-7 > .horizontal,
+#slide-4-8 > .horizontal,
+#slide-4-9 > .horizontal {
   width: 80vw;
   min-width: 900px;
 }
 
-#slide-4-5 .block-label:not(:first-child) {
+#slide-4-5 .block-label:not(:first-child),
+#slide-4-6 .block-label:not(:first-child),
+#slide-4-7 .block-label:not(:first-child),
+#slide-4-8 .block-label:not(:first-child),
+#slide-4-9 .block-label:not(:first-child) {
   margin-top: 20px;
 }
 
-#slide-4-5 .text-block {
+#slide-4-5 .text-block,
+#slide-4-6 .text-block,
+#slide-4-7 .text-block,
+#slide-4-8 .text-block,
+#slide-4-9 .text-block {
   display: flex;
 }
 
-#slide-4-5 .text-block:nth-child(2) code > div:not(:first-child) {
+#slide-4-5 .text-block:nth-child(2) code > div:not(:first-child),
+#slide-4-6 .text-block:nth-child(2) code > div:not(:first-child),
+#slide-4-7 .text-block:nth-child(2) code > div:not(:first-child),
+#slide-4-8 .text-block:nth-child(2) code > div:not(:first-child),
+#slide-4-9 .text-block:nth-child(2) code > div:not(:first-child) {
   margin-top: 15px;
 }
 
-#slide-4-5 .text-block:last-child {
+#slide-4-5 .text-block:last-child,
+#slide-4-6 .text-block:last-child,
+#slide-4-7 .text-block:last-child,
+#slide-4-8 .text-block:last-child,
+#slide-4-9 .text-block:last-child {
   flex-grow: 1;
 }
 
-#slide-4-5 .text-block:last-child code > div:not(:first-child) {
+#slide-4-5 .text-block:last-child code > div:not(:first-child),
+#slide-4-6 .text-block:last-child code > div:not(:first-child),
+#slide-4-7 .text-block:last-child code > div:not(:first-child),
+#slide-4-8 .text-block:last-child code > div:not(:first-child),
+#slide-4-9 .text-block:last-child code > div:not(:first-child) {
   margin-top: 20px;
 }
 
-#slide-4-5 .index-number {
+#slide-4-5 .index-number,
+#slide-4-6 .index-number,
+#slide-4-7 .index-number,
+#slide-4-8 .index-number,
+#slide-4-9 .index-number {
   color: rgba(255, 255, 255, 0.3);
 }
 
-#slide-4-5 .element-block {
+#slide-4-5 .element-block,
+#slide-4-6 .element-block,
+#slide-4-7 .element-block,
+#slide-4-8 .element-block,
+#slide-4-9 .element-block {
   height: 100px;
   width: calc((100% - 34px) / 5);
   background-color: gray;
 }
 
-#slide-4-5-1 .code-highlight {
+#slide-4-5 .substitute .code-highlight {
   color: deepskyblue;
 }
 
-#slide-4-5-1 .element-block:nth-child(1),
-#slide-4-5-1 .element-block:nth-child(2),
-#slide-4-5-1 .element-block:nth-child(3),
-#slide-4-5-1 .element-block:nth-child(5) {
+#slide-4-5 .substitute .element-block:nth-child(1),
+#slide-4-5 .substitute .element-block:nth-child(2),
+#slide-4-5 .substitute .element-block:nth-child(3),
+#slide-4-5 .substitute .element-block:nth-child(5) {
   background-color: deepskyblue;
 }
 
-#slide-4-5-2 .code-highlight {
+#slide-4-6 .substitute .code-highlight {
   color: yellow;
 }
 
-#slide-4-5-2 .element-block:nth-child(2) {
+#slide-4-6 .substitute .element-block:nth-child(2) {
   background-color: yellow;
 }
 
-#slide-4-5-3 .code-highlight {
+#slide-4-7 .substitute .code-highlight {
   color: lawngreen;
 }
 
-#slide-4-5-3 .element-block:nth-child(3) {
+#slide-4-7 .substitute .element-block:nth-child(3) {
   background-color: lawngreen;
 }
 
-#slide-4-5-4 .code-highlight {
+#slide-4-8 .substitute .code-highlight {
   color: orangered;
 }
 
-#slide-4-5-4 .element-block:nth-child(4),
-#slide-4-5-4 .element-block:nth-child(5) {
+#slide-4-8 .substitute .element-block:nth-child(4),
+#slide-4-8 .substitute .element-block:nth-child(5) {
   background-color: orangered;
 }
 
-#slide-4-5-5 .code-highlight {
+#slide-4-9 .substitute .code-highlight {
   color: violet;
 }
 
-#slide-4-5-5 .element-block:nth-child(5) {
+#slide-4-9 .substitute .element-block:nth-child(5) {
   background-color: violet;
 }
 
-#slide-4-7 .horizontal,
-#slide-4-8 .horizontal,
-#slide-4-9 .horizontal,
-#slide-4-10 .horizontal,
 #slide-4-11 .horizontal,
-#slide-4-12 .horizontal {
+#slide-4-12 .horizontal,
+#slide-4-13 .horizontal,
+#slide-4-14 .horizontal,
+#slide-4-15 .horizontal,
+#slide-4-16 .horizontal {
   width: 50vw;
 }
 
-#slide-4-7 .horizontal > div:first-child,
-#slide-4-8 .horizontal > div:first-child,
-#slide-4-9 .horizontal > div:first-child,
-#slide-4-10 .horizontal > div:first-child,
 #slide-4-11 .horizontal > div:first-child,
-#slide-4-12 .horizontal > div:first-child {
+#slide-4-12 .horizontal > div:first-child,
+#slide-4-13 .horizontal > div:first-child,
+#slide-4-14 .horizontal > div:first-child,
+#slide-4-15 .horizontal > div:first-child,
+#slide-4-16 .horizontal > div:first-child {
   min-width: 300px;
   max-width: 20vw;
 }
